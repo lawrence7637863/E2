@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEGAJO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GEGAJO</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#autobiography">Autobiography</a></li>
+                <li><a href="#article">Article</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#form">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>WELCOME TO THE VOID!</h2>
+        <p>Where the unwanted and unloved have been thrown...</p>
+        <img src="my-image.jpg" alt="Logo">
+    </section>
+
+    <footer>
+        <p>Sorsogon College of Criminology Inc.</p>
+        <p>Author: Your Name | Section II-India</p>
+        <p>Email: your-email@example.com</p>
+    </footer>
+</body>
+</html>
+
+
+---
+
+CSS Code (style.css)
+
+/* General Styling */
+body {
+    font-family: Times New Roman, sans-serif;
+    background-color: #2e2e2e;
+    color: LIGHT GRAY;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: gold;
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    text-align: center;
+    padding: 50px;
+}
+
+section img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    font-size: 14px;
+}
